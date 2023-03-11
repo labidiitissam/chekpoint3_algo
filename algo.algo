@@ -1,0 +1,28 @@
+PROCEDURE tri_insertion(array a[1:n],n integer)
+VAR
+    i,j,n:INTEGER;
+    true :BOOLEAN;
+    sum:integer:=0;
+BEGIN
+ FOR i from 1 in n DO
+    FOR j from 1 in n DO
+      IF a1[i]==a2[j] THEN
+        rturn TRUE;
+        ELSE 
+        sum:=sum+a1[i];
+ 
+ END IF
+ END FOR
+    
+ END FOR
+     FOR i from 1 in n DO
+    FOR j from 1 in n DO
+      IF a2[i]==a1[j] THEN
+        rturn TRUE;
+        ELSE 
+        sum:=sum+a2[i];
+        END IF
+        END FOR
+        END FOR
+ 
+END
